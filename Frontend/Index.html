@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Gestión Documental</title>
+
+    <link rel="stylesheet" href="css/indexstyle.css">
+</head>
+
+<body>
+
+    <div class="contenedor-principal">
+
+        <header class="encabezado">
+
+            <h1>SISTEMA DE GESTIÓN DOCUMENTAL</h1>
+
+        </header>
+
+        <div class="contenido">
+
+            <aside class="menu-lateral">
+
+                <h3>MENÚ</h3>
+
+                <button id="btnInicio">
+                    Inicio
+                </button>
+
+                <button id="btnChat">
+                    Chat Institucional
+                </button>
+
+                <button id="btnPrestamos">
+                    Préstamos
+                </button>
+
+                <button id="btnUsuarios">
+                    Usuarios
+                </button>
+
+                <button id="btnAuditoria">
+                    Auditoría
+                </button>
+
+                <button class="btn-salir" onclick="cerrarSesion()">
+
+                    Cerrar Sesión
+
+                </button>
+
+
+            </aside>
+
+            <main class="area-trabajo">
+
+                <div id="contenidoPrincipal">
+
+                    <h2>Bienvenido al Sistema</h2>
+
+
+                    <p>
+                        Seleccione una opción del menú lateral para comenzar.
+                    </p>
+
+                </div>
+
+            </main>
+
+        </div>
+
+        <footer class="pie">
+
+            <div>
+
+                Usuario:
+                <strong id="usuarioFooter"></strong>
+
+            </div>
+
+
+        </footer>
+
+    </div>
+
+    <script src="dashboard.js"></script>
+
+</body>
+
+</html>
